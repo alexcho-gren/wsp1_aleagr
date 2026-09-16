@@ -1,6 +1,7 @@
 Vecka 4
 
 12/11/2026
+
 Läste genom kapitel 4.
 Gjorde Genomgång och Gör det själv
 Kapitel 4, sida 73-75. Genomgång + Gör det själv:
@@ -9,9 +10,13 @@ Tog bort vlan 30 från trunkens allowed-lista på Switch-1. Pingade, fick 'reque
 Skrev show interfaces trunk på båda switchars terminal.
 Utdatan är den samma på båda förutom att vlan 30 saknas på Switch-1's utdata. 
 Ändrade tillbaka vlan 30 på Switch-1. Ändrade sedan Switch-2's native vlan till vlan 1.
-Fick utdatan: "%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/1 (1), with Switch-1 GigabitEthernet0/1 (999)."
+
+Fick utdatan: 
+
+    %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/1 (1), with Switch-1 GigabitEthernet0/1 (999).
 
 13/11/2026
+
 Skrev basen till veckans Python-skript. Fick utdatan:
 
     vlan 10
@@ -49,16 +54,20 @@ Repeterade kapitel 4. Svarade på frågorna i återblicken.
       portar på två olika switchar så måste det finnas en trunk mellan de två switcharna, som också
       måste vara exakt likadant konfigurerad i båda ändar.
 
+
 14/11/2026
+
 Gjorde veckans koan. Kopierade test_koans.py ut ur repot och gjorde den utanför repot till att börja med.
 Skrev ett commit-meddelande till varje grupp + återblick i ett text-dokument, också utanför repot.
 
 15/11/2026
+
 Skrev in svaren på veckans koan i repot. Commitade alla grupper m. meddelande. Pushade till branch week-04/alexander-agren.
 Skrev om veckans Python-skript efter instruktion 'Veckans Python'
 Satt och sysslade med genomgångar i tidigare kapitel i Packet Tracer.
 
 16/11/2026
+
 Läste kapitel 5.
 Gjorde veckans checkpoint. Ska lägga till allt i en ny mapp i /uppgifter på repot.
 Pushar sen till en ny branch som heter uppgifter/alexander-agren efter jag skrivit färdigt i dagbok.md
