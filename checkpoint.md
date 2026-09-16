@@ -1,74 +1,76 @@
 UTDATA FRÅN SWITCH-1:
-Switch-1#show interfaces trunk
-Port        Mode         Encapsulation  Status        Native vlan
-Gig0/1      on           802.1q         trunking      999
 
-Port        Vlans allowed on trunk
-Gig0/1      10,20,30
+    Switch-1#show interfaces trunk
+    Port        Mode         Encapsulation  Status        Native vlan
+    Gig0/1      on           802.1q         trunking      999
 
-Port        Vlans allowed and active in management domain
-Gig0/1      10,20,30
+    Port        Vlans allowed on trunk
+    Gig0/1      10,20,30
 
-Port        Vlans in spanning tree forwarding state and not pruned
-Gig0/1      10,20,30
+    Port        Vlans allowed and active in management domain
+    Gig0/1      10,20,30
+
+    Port        Vlans in spanning tree forwarding state and not pruned
+    Gig0/1      10,20,30
 
 
-Switch-1#show vlan brief
+    Switch-1#show vlan brief
 
-VLAN Name                             Status    Ports
----- -------------------------------- --------- -------------------------------
-1    default                          active    Fa0/4, Fa0/5, Fa0/6, Fa0/7
+    VLAN Name                             Status    Ports
+    ---- -------------------------------- --------- -------------------------------
+    1    default                          active    Fa0/4, Fa0/5, Fa0/6, Fa0/7
                                                 Fa0/8, Fa0/9, Fa0/10, Fa0/11
                                                 Fa0/12, Fa0/13, Fa0/14, Fa0/15
                                                 Fa0/16, Fa0/17, Fa0/18, Fa0/19
                                                 Fa0/20, Fa0/21, Fa0/22, Fa0/23
                                                 Fa0/24, Gig0/2
-10   KONTOR                           active    Fa0/1
-20   EKONOMI                          active    Fa0/2
-30   GAST                             active    Fa0/3
-99   DRIFT                            active    
-999  NATIVE                           active    
-1002 fddi-default                     active    
-1003 token-ring-default               active    
-1004 fddinet-default                  active    
-1005 trnet-default                    active    
+    10   KONTOR                           active    Fa0/1
+    20   EKONOMI                          active    Fa0/2
+    30   GAST                             active    Fa0/3
+    99   DRIFT                            active    
+    999  NATIVE                           active    
+    1002 fddi-default                     active    
+    1003 token-ring-default               active    
+    1004 fddinet-default                  active    
+    1005 trnet-default                    active    
 
 
 
 
-UTDATA FRÅN SWITCH-2:
-Switch-2#show interfaces trunk
-Port        Mode         Encapsulation  Status        Native vlan
-Gig0/1      on           802.1q         trunking      999
+  UTDATA FRÅN SWITCH-2:
+    
+    Switch-2#show interfaces trunk
+    Port        Mode         Encapsulation  Status        Native vlan
+    Gig0/1      on           802.1q         trunking      999
 
-Port        Vlans allowed on trunk
-Gig0/1      10,20,30
+    Port        Vlans allowed on trunk
+    Gig0/1      10,20,30
 
-Port        Vlans allowed and active in management domain
-Gig0/1      10,20,30
+    Port        Vlans allowed and active in management domain
+    Gig0/1      10,20,30
 
-Port        Vlans in spanning tree forwarding state and not pruned
-Gig0/1      10,20,30
+    Port        Vlans in spanning tree forwarding state and not pruned
+    Gig0/1      10,20,30
 
 
-Switch-2#show vlan brief
+    Switch-2#show vlan brief
 
-VLAN Name                             Status    Ports
----- -------------------------------- --------- -------------------------------
-1    default                          active    Fa0/4, Fa0/5, Fa0/6, Fa0/7
+    VLAN Name                             Status    Ports
+    ---- -------------------------------- --------- -------------------------------
+    1    default                          active    Fa0/4, Fa0/5, Fa0/6, Fa0/7
                                                 Fa0/8, Fa0/9, Fa0/10, Fa0/11
                                                 Fa0/12, Fa0/13, Fa0/14, Fa0/15
                                                 Fa0/16, Fa0/17, Fa0/18, Fa0/19
                                                 Fa0/20, Fa0/21, Fa0/22, Fa0/23
                                                 Fa0/24, Gig0/2
-10   KONTOR                           active    Fa0/1
-20   EKONOMI                          active    Fa0/2
-30   GAST                             active    Fa0/3
-999  NATIVE                           active    
-1002 fddi-default                     active    
-1003 token-ring-default               active    
-1004 fddinet-default                  active    
-1005 trnet-default                    active    
+    10   KONTOR                           active    Fa0/1
+    20   EKONOMI                          active    Fa0/2
+    30   GAST                             active    Fa0/3
+    999  NATIVE                           active    
+    1002 fddi-default                     active    
+    1003 token-ring-default               active    
+    1004 fddinet-default                  active    
+    1005 trnet-default                    active    
 
 
 
