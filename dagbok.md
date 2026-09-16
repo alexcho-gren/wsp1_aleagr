@@ -14,14 +14,14 @@ Fick utdatan: "%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on G
 13/11/2026
 Skrev basen till veckans Python-skript. Fick utdatan:
 
-vlan 10
- name KONTOR
-vlan 20
- name EKONOMI
-vlan 30
- name GAST
-vlan 99
- name DRIFT
+    vlan 10
+    name KONTOR
+    vlan 20
+    name EKONOMI
+    vlan 30
+    name GAST
+    vlan 99
+    name DRIFT
 
 Repeterade kapitel 4. Svarade på frågorna i återblicken.
 Återblick:
@@ -34,7 +34,6 @@ Repeterade kapitel 4. Svarade på frågorna i återblicken.
       Den sista enheten får IP-adressen 192.168.1.1.190
       Mellan dem finns det 60 lediga adresser. Totalt blir det 62 adresser.
       Adressintervallen är då 192.168.1.129 - 192.168.1.190
-      
       Kort svar:
       Nätadress: 192.168.1.128
       Broadcastadress: 192.168.1.191
